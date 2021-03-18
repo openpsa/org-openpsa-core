@@ -1,0 +1,6 @@
+'name' => 'org.openpsa.core',
+'icon' => 'cog',
+'purecode' => true,
+'privileges' => [],
+'class_mapping' => [],
+'description' => 'OpenPSA core library',

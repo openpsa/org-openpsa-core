@@ -1,0 +1,63 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE de
+
+---STRING aggregated
+Aggregiert
+---STRINGEND
+
+---STRING apply
+anwenden
+---STRINGEND
+
+---STRING download as CSV
+Als CSV herunterladen
+---STRINGEND
+
+---STRING filter error
+Filter-Fehler
+---STRINGEND
+
+---STRING group by
+Gruppiert nach
+---STRINGEND
+
+---STRING no grouping
+keine Gruppierung
+---STRINGEND
+
+---STRING org.openpsa.core
+OpenPSA
+---STRINGEND
+
+---STRING popup
+Pop-Up
+---STRINGEND
+
+---STRING private
+Privat
+---STRINGEND
+
+---STRING public
+Öffentlich
+---STRINGEND
+
+---STRING the handed filter for %s could not be set as parameter
+Der übergebene Filter für %s konnte nicht als Parameter gespeichert werden
+---STRINGEND
+
+---STRING unset
+zurücksetzen
+---STRINGEND
+
+---STRING workgroup private
+Privat (Arbeitsgruppe)
+---STRINGEND
+
+---STRING workgroup restricted
+Auf Arbeitsgruppe beschränkt
+---STRINGEND
+
+---STRING org.openpsa.core
+OpenPSA
+---STRINGEND

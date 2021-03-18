@@ -1,0 +1,24 @@
+{
+    "name": "openpsa/org-openpsa-core",
+    "type": "midcom-package",
+    "description": "OpenPSA core library",
+    "keywords": ["midcom", "openpsa"],
+    "homepage": "https://openpsa2.org",
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Andreas Flack",
+            "email": "flack@contentcontrol-berlin.de",
+            "homepage": "http://www.contentcontrol-berlin.de/"
+        }
+    ],
+    "require": {
+        "openpsa/midcom-core": "dev-main",
+        "openpsa/org-openpsa-httplib": "dev-main"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}

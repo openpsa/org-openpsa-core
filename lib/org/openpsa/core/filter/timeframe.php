@@ -28,8 +28,6 @@ class org_openpsa_core_filter_timeframe extends org_openpsa_core_filter
     private $end;
 
     /**
-     * Constructor
-     *
      * @param string $name The filter's name
      * @param string $start The field representing the timeframe's start
      * @param string $end The field representing the timeframe's end
@@ -37,14 +35,8 @@ class org_openpsa_core_filter_timeframe extends org_openpsa_core_filter
     public function __construct($name, $start = null, $end = null)
     {
         $this->name = $name;
-        $this->start = $start;
-        $this->end = $end;
-        if (empty($this->start)) {
-            $this->start = $name;
-        }
-        if (empty($this->end)) {
-            $this->end = $this->start;
-        }
+        $this->start = $start ?: $name;
+        $this->end = $end ?: $this->start;
     }
 
     /**
